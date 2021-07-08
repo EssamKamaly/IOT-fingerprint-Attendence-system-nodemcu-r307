@@ -70,7 +70,7 @@ String ID;
 
 String Event_Name = "fingerprint";
 
-String Key = "psfPWLRDi4TqKm1zh9J9JAmyqf1dbV7OfZ95Jsdz8Cq";
+String Key = "//IFTTT key of your account//";
 
 // Replace with your unique IFTTT URL resource
 String resource = "/trigger/" + Event_Name + "/with/key/" + Key;
@@ -79,8 +79,8 @@ String resource = "/trigger/" + Event_Name + "/with/key/" + Key;
 const char* server = "maker.ifttt.com";
 
 // Replace with your SSID and Password
-const char* ssid     = "Fatma"; 
-const char* password = "11112222"; 
+const char* ssid     = "//WIFI//"; 
+const char* password = "//Password//"; 
 SoftwareSerial mySerial(D6, D5);
 
 
